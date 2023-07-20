@@ -1,18 +1,14 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center p-24">
-      <h1 className="font-mono m-8">
-        sanchezyspace
-      </h1>
-      <Image
+      <h1 className="font-mono m-8">sanchezyspace</h1>
+      <img
         src={"/home_ricks_garage.jpg"}
         alt="Top image showing the garage of Rick and Morty"
         width={300}
         height={200}
         className="m-8"
-      ></Image>
+      ></img>
       <div className="flex flex-col text-red-500 m-8 items-center">
         <a
           className="font-mono hover:text-red-300"
