@@ -9,24 +9,30 @@ export default function Home() {
         height={200}
         className="m-8"
       ></img>
-      <div className="flex flex-col text-red-500 m-8 items-center">
+      <div className="flex flex-col text-red-500 m-10 items-center">
         <a
-          className="font-mono hover:text-red-300"
+          className="font-mono hover:text-red-300 mb-3"
           href="https://lizard-button-6e1.notion.site/about-13df3add2b044572ad44e87342343399?pvs=4"
         >
           about
         </a>
         <a
-          className="font-mono hover:text-red-300"
+          className="font-mono hover:text-red-300 mb-3"
           href="https://discord.gg/kaQhDFwt37"
         >
           discord
         </a>
         <a
-          className="font-mono hover:text-red-300"
+          className="font-mono hover:text-red-300 mb-3"
           href="https://github.com/sanchezyspace"
         >
           github
+        </a>
+        <a
+          className="font-mono hover:text-red-300 mb-3"
+          href="https://suzuri.jp/sanchezyspace"
+        >
+          goods
         </a>
       </div>
     </main>
